@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIG Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <div id="container ">
+        <div id="wrapper">
+            <div class="player-0-panel player-panel ">
+                <div class="player-0-label player-label active">Player 1</div>
+                <div class="winnerLabel-0 disp">Winner!!</div>
+                <div class="player-cscore player-0-cscore">0</div>
+                <div class="player-0-tempScore"><div class="tempScore-0-Number">100</div><div class="tempScoreLabel">Score</div></div>
+            </div>
+            <div class="die-face-area ">
+                <img  class="die"src="die-5.png">
+            </div>
+            <div class="button-area ">
+                <button class="btn-new"><ion-icon name="add-circle-outline"></ion-icon>New Game</button>
+                <button class="btn-hold"><ion-icon name="download-outline"></ion-icon>Hold</button>
+                <button class="btn-roll"><ion-icon name="git-compare-outline"></ion-icon>Roll Dice</button>
+            </div>
+            <div class="potrait ">Please Use Landscape For Best Playing Experience</div>
+            <div class="player-1-panel player-panel ">
+                <div class="player-1-label player-label">Player 2</div>
+                <div class="winnerLabel-1 disp">Winner!!</div>
+                <div class="player-cscore player-1-cscore">0</div>
+                <div class="player-1-tempScore"><div class="tempScore-1-Number">100</div><div class="tempScoreLabel">Score</div></div>  
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
